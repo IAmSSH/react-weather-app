@@ -8,11 +8,9 @@ class App extends Component {
     weatherObj: null
   }
   weather = (cityWeather) => {
-    // console.log(cityWeather);
     this.setState({
       weatherObj: cityWeather
     });
-    console.log(this.state);
   }
 
   render() {

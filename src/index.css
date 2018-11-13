@@ -24,3 +24,7 @@ code {
   overflow: hidden;
   padding-left: 80px;
 }
+
+#submit-button{
+  width: 100%;
+}
