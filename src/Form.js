@@ -22,7 +22,6 @@ class Form extends Component {
     }
 
     handleBtnClick = () => {        
-        const reqURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + this.state.cityName + "&APPID=6c307eade9c50ee3c02ac355e19c0003";
         var desc =  [];
 
         axios.get(reqURL)
